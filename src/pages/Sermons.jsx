@@ -35,7 +35,7 @@ const Sermons = () => {
                         <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', borderRadius: '8px', boxShadow: 'var(--shadow-lg)' }}>
                             <iframe
                                 style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 'none' }}
-                                src="https://www.youtube.com/embed/videoseries?list=PLx0sYbCqOb8TB_M_gDr5-jK_pMh5-gPbf" // Using a generic playlist or video ID
+                                src="https://www.youtube.com/watch?v=PtCkU-S5zAw&list=PLwIqrzFylL5iIMRCkSZNVtkeZ7nslzpeU" // Using a generic playlist or video ID
                                 title="Latest Sermon"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowFullScreen
@@ -56,7 +56,7 @@ const Sermons = () => {
                                         <h3 style={{ fontSize: '1.1rem', marginBottom: '0.5rem' }}>{sermon.title}</h3>
                                         <p style={{ fontSize: '0.875rem', color: 'var(--color-text-muted)', marginBottom: '0.25rem' }}>{sermon.preacher}</p>
                                         <p style={{ fontSize: '0.875rem', color: '#94a3b8' }}>{sermon.date}</p>
-                                        <a href="https://www.youtube.com/@HawassaReformedBaptistChurch" target="_blank" rel="noreferrer" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', marginTop: '1rem', color: 'var(--color-primary)', fontWeight: '600', fontSize: '0.875rem' }}>
+                                        <a href="https://www.youtube.com/watch?v=PtCkU-S5zAw&list=PLwIqrzFylL5iIMRCkSZNVtkeZ7nslzpeU" target="_blank" rel="noreferrer" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', marginTop: '1rem', color: 'var(--color-primary)', fontWeight: '600', fontSize: '0.875rem' }}>
                                             {t('sermons.watch_on_youtube')} <ExternalLink size={16} />
                                         </a>
                                     </div>
@@ -68,7 +68,7 @@ const Sermons = () => {
                     {/* Channel Button */}
                     <div className="text-center animate-in delay-300" style={{ marginTop: '4rem' }}>
                         <a
-                            href="https://www.youtube.com/@HawassaReformedBaptistChurch"
+                            href="https://www.youtube.com/watch?v=PtCkU-S5zAw&list=PLwIqrzFylL5iIMRCkSZNVtkeZ7nslzpeU"
                             target="_blank"
                             rel="noreferrer"
                             className="btn"
