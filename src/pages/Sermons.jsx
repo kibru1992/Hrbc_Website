@@ -68,7 +68,7 @@ const Sermons = () => {
                     {/* Channel Button */}
                     <div className="text-center animate-in delay-300" style={{ marginTop: '4rem' }}>
                         <a
-                            href="https://www.youtube.com/watch?v=PtCkU-S5zAw&list=PLwIqrzFylL5iIMRCkSZNVtkeZ7nslzpeU"
+                            href="https://www.youtube.com/@HawassaReformedBaptistChurch"
                             target="_blank"
                             rel="noreferrer"
                             className="btn"
