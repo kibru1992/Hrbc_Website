@@ -34,10 +34,43 @@ const About = () => {
                                     We fully subscribe to the <strong>1689 London Baptist Confession of Faith</strong>. We believe it is the best summary of what the Bible teaches.
                                 </Trans>
                             </p>
-                            <ul style={{ listStyle: 'disc', paddingLeft: '1.5rem', display: 'flex', flexDirection: 'column', gap: '0.5rem', marginBottom: '2rem' }}>
+
+                            {/* <ul style={{ listStyle: 'disc', paddingLeft: '1.5rem', display: 'flex', flexDirection: 'column', gap: '0.5rem', marginBottom: '2rem' }}>
                                 <li><strong>{t('about.sola_scriptura')}:</strong> {t('about.sola_scriptura_desc')}</li>
                                 <li><strong>{t('about.sovereign_grace')}:</strong> {t('about.sovereign_grace_desc')}</li>
                                 <li><strong>{t('about.believers_baptism')}:</strong> {t('about.believers_baptism_desc')}</li>
+                            </ul> */}
+
+                            <h3 style={{ fontSize: '1.5rem', color: 'var(--color-primary)', marginTop: '2rem', marginBottom: '2rem' }}>{t('about.tulip_title')}</h3>
+                            <ul style={{ listStyle: 'none', padding: 0, display: 'flex', flexDirection: 'column', gap: '0.75rem', marginBottom: '2rem' }}>
+                                {[
+                                    { key: 'total_depravity', label: 'T' },
+                                    { key: 'unconditional_election', label: 'U' },
+                                    { key: 'limited_atonement', label: 'L' },
+                                    { key: 'irresistible_grace', label: 'I' },
+                                    { key: 'perseverance_saints', label: 'P' }
+                                ].map((item) => (
+                                    <li key={item.key} style={{ display: 'flex', gap: '1rem', alignItems: 'flex-start' }}>
+                                        <span style={{
+                                            backgroundColor: 'var(--color-accent)',
+                                            color: 'white',
+                                            fontWeight: 'bold',
+                                            minWidth: '32px',
+                                            height: '32px',
+                                            display: 'flex',
+                                            alignItems: 'center',
+                                            justifyContent: 'center',
+                                            borderRadius: '50%',
+                                            fontSize: '0.9rem'
+                                        }}>
+                                            {item.label}
+                                        </span>
+                                        <div>
+                                            <strong>{t(`about.${item.key}`)}:</strong>
+                                            <p style={{ margin: 0, color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>{t(`about.${item.key}_desc`)}</p>
+                                        </div>
+                                    </li>
+                                ))}
                             </ul>
                         </div>
                         <div style={{ backgroundColor: '#f1f5f9', padding: '2rem', borderRadius: '8px' }}>

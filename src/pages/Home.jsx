@@ -1,5 +1,6 @@
 import { ArrowRight, Calendar, Clock } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import heroBg from '../assets/chu.jpg';
 import { useTranslation } from 'react-i18next';
 
 const Home = () => {
@@ -12,7 +13,7 @@ const Home = () => {
                 backgroundColor: 'var(--color-primary)',
                 color: 'white',
                 padding: '8rem 0',
-                backgroundImage: 'linear-gradient(rgba(30, 58, 138, 0.9), rgba(30, 58, 138, 0.8)), url("https://images.unsplash.com/photo-1438232992991-995b7058bbb3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80")',
+                backgroundImage: `linear-gradient(rgba(30, 58, 138, 0.7), rgba(30, 58, 138, 0.6)), url(${heroBg})`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 textAlign: 'center'
