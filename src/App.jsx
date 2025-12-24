@@ -5,6 +5,7 @@ import About from './pages/About';
 import Sermons from './pages/Sermons';
 import Ministries from './pages/Ministries';
 import Contact from './pages/Contact';
+import Donation from './pages/Donation';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/sermons" element={<Sermons />} />
         <Route path="/ministries" element={<Ministries />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/donation" element={<Donation />} />
       </Routes>
     </Layout>
   );

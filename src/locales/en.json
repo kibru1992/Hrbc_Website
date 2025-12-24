@@ -4,6 +4,7 @@
         "about": "About Us",
         "ministries": "Ministries",
         "contact": "Contact",
+        "donate": "Give",
         "sermons": "Sermons",
         "visit": "Visit Us"
     },
@@ -119,5 +120,18 @@
         "recent": "Recent Sermons",
         "watch_on_youtube": "Watch on YouTube",
         "visit_channel": "Visit our YouTube Channel"
+    },
+    "donation": {
+        "title": "Giving",
+        "subtitle": "Supporting the work of the ministry.",
+        "ways_to_give": "Ways to Give",
+        "bank_transfer": "Bank Transfer",
+        "in_person": "In Person",
+        "bank_name": "Commercial Bank of Ethiopia",
+        "account_holder": "Hawassa Reformed Baptist Church",
+        "account_number": "1000XXXXXXXXX",
+        "bank_name_2": "Bank of Abyssinia",
+        "account_number_2": "XXXXXXXXX",
+        "in_person_desc": "You can also give your tithes and offerings during our Sunday worship services."
     }
 }

@@ -4,6 +4,7 @@
         "about": "ስለ እኛ",
         "ministries": "አገልግሎቶች",
         "contact": "ያግኙን",
+        "donate": "መስጠት",
         "sermons": "ስብከቶች",
         "visit": "ይጎብኙን"
     },
@@ -119,5 +120,18 @@
         "recent": "ተጨማሪ ትምህርቶች",
         "watch_on_youtube": "በ YouTube ይመልከቱ",
         "visit_channel": "የ YouTube ቻናላችንን ይጎብኙ"
+    },
+    "donation": {
+        "title": "መስጠት",
+        "subtitle": "የወንጌልን አገልግሎት መደገፍ።",
+        "ways_to_give": "የመስጫ መንገዶች",
+        "bank_transfer": "በባንክ",
+        "in_person": "በአካል",
+        "bank_name": "የኢትዮጵያ ንግድ ባንክ",
+        "account_holder": "ሃዋሳ ሪፎርምድ ባፕቲስት ቤተክርስቲያን",
+        "account_number": "1000XXXXXXXXX",
+        "bank_name_2": "አቢሲኒያ ባንክ",
+        "account_number_2": "XXXXXXXXX",
+        "in_person_desc": "በእሁድ የአምልኮ ፕሮግራማችን ላይ በአካል መገኘት አስራት እና መባዎን መስጠት ይችላሉ።"
     }
 }

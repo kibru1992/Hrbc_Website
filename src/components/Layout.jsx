@@ -18,6 +18,7 @@ const Navbar = () => {
     { name: t('nav.sermons'), path: '/sermons' },
     { name: t('nav.ministries'), path: '/ministries' },
     { name: t('nav.contact'), path: '/contact' },
+    { name: t('nav.donate'), path: '/donation' },
   ];
 
   const isActive = (path) => location.pathname === path;
@@ -147,7 +148,7 @@ const Footer = () => {
             <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', color: '#e2e8f0' }}>
               <div style={{ display: 'flex', gap: '0.75rem' }}>
                 <MapPin size={20} />
-                <span>Hawassa, Ethiopia<br />Kebele 05, Near Old Airport</span>
+                <span>Hawassa, Ethiopia<br />Piassa Near Awash Bank</span>
               </div>
               <div style={{ display: 'flex', gap: '0.75rem' }}>
                 <Phone size={20} />
