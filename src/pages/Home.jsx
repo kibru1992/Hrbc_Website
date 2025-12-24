@@ -88,7 +88,7 @@ const Home = () => {
                         <div style={{ position: 'relative' }}>
                             <div style={{ position: 'absolute', top: '-20px', left: '-20px', width: '100px', height: '100px', backgroundColor: 'var(--color-accent)', borderRadius: '4px', zIndex: 0 }}></div>
                             <img
-                                src="https://images.unsplash.com/photo-1545648574-332308c3cf0d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                                src="https://images.unsplash.com/photo-1438232992991-995b7058bbb3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80"
                                 alt="Bible Study"
                                 style={{ position: 'relative', zIndex: 1, borderRadius: '8px', boxShadow: 'var(--shadow-lg)' }}
                             />
