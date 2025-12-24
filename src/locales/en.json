@@ -29,9 +29,9 @@
         "evening_service_desc": "A time of prayer and teaching.",
         "midweek_study": "Midweek Study",
         "midweek_study_desc": "Wednesday Bible study & prayer.",
-        "welcome_title": "Welcome to HRBC",
-        "welcome_text_1": "We are a Reformed Baptist church located in the heart of Hawassa, Ethiopia. We believe in the authority of Scripture, the sovereignty of God in salvation, and the centrality of the local church.",
-        "welcome_text_2": "Whether you are a long-time believer or just asking questions about faith, we invite you to join us as we seek to know Christ and make Him known.",
+        "welcome_title": "Are You Looking for a Reformed Church in Hawassa?",
+        "welcome_text_1": "We invite you to join us at HRBC, where we gather as a community to worship God, study His Word, and live out our faith together.",
+        "welcome_text_2": "Whether you are new to the Reformed faith or looking for a place to deepen your relationship with God, we would love to welcome you.",
         "learn_more": "Learn more about us"
     },
     "about": {
@@ -69,7 +69,26 @@
         "deacon": "DEACON",
         "deacon_desc": "Serving the physical needs of the body and maintaining the church property.",
         "history_title": "Our History",
-        "history_text": "Hawassa Reformed Baptist Church was planted in [Year] with a burden to see a biblical church established in this city. Starting as a small Bible study in a living room, God has faithfully grown us into a congregation that loves His Word. We continue to look forward to how God will use us to spread the Gospel in Hawassa and beyond."
+        "history_text": "Hawassa Reformed Baptist Church was planted in [Year] with a burden to see a biblical church established in this city. Starting as a small Bible study in a living room, God has faithfully grown us into a congregation that loves His Word. We continue to look forward to how God will use us to spread the Gospel in Hawassa and beyond.",
+        "statement_of_faith": {
+            "title": "What We Believe",
+            "intro": "‘ Salvation belongs to the Lord ! ‘",
+            "verse": "Jonah 2:9",
+            "reformed_title": "As a Reformed Baptist church",
+            "reformed_text": "We are committed to the historic Christian faith, rooted in the Scriptures and summarized in the 1689 London Baptist Confession of Faith. This confession, along with the Baptist Catechism, serves as a faithful guide to understanding and applying God’s Word. We believe the Bible is the inspired, inerrant, and authoritative Word of God, and it is our final authority for all matters of faith and life.",
+            "scriptures": "The Scriptures",
+            "scriptures_desc": "We believe the Bible (Old and New Testaments) is the verbally inspired Word of God, without error in the original writings, and is the complete revelation of His will for salvation and life. It is our supreme authority. (2 Timothy 3:16-17; 2 Peter 1:20-21)",
+            "trinity": "The Trinity",
+            "trinity_desc": "We believe in one God, eternally existing in three co-equal persons: Father, Son (Jesus Christ), and Holy Spirit. They are one God, having the same divine nature, attributes, and perfection. (Matthew 28:19; 2 Corinthians 13:14)",
+            "god_father": "God the Father",
+            "god_father_desc": "We believe in God the Father, an infinite, personal Spirit, perfect in holiness, wisdom, power, and love. He concerns Himself mercifully in the affairs of men, He hears and answers prayer, and He saves from sin and death all who come to Him through Jesus Christ.",
+            "jesus_christ": "Jesus Christ",
+            "jesus_christ_desc": "We believe that Jesus Christ is the eternal Son of God, fully God and fully man, conceived by the Holy Spirit and born of the Virgin Mary. He lived a sinless life, died on the cross as a substitutionary atonement for our sins, rose bodily from the dead, ascended to heaven, and will return again in glory. (John 1:1, 14; Philippians 2:5-11)",
+            "holy_spirit": "The Holy Spirit",
+            "holy_spirit_desc": "We believe in the Holy Spirit, the third person of the Trinity, who convicts the world of sin, regenerates those who believe, indwells, empowers, and guides believers into all truth. (John 16:7-15; Titus 3:5)",
+            "humanity": "Humanity",
+            "humanity_desc": "We believe that God created man and woman in His own image, but they fell into sin through disobedience. As a result, all humanity is born with a sin nature, is alienated from God, and is under His just condemnation. (Genesis 1:26-27; Romans 3:23)"
+        }
     },
     "ministries": {
         "title": "Ministries",
@@ -132,6 +151,14 @@
         "account_number": "1000XXXXXXXXX",
         "bank_name_2": "Bank of Abyssinia",
         "account_number_2": "XXXXXXXXX",
-        "in_person_desc": "You can also give your tithes and offerings during our Sunday worship services."
+        "in_person_desc": "You can also give your tithes and offerings during our Sunday worship services.",
+        "biblical_basis": {
+            "title": "Why We Give",
+            "intro": "Giving is an act of worship, an expression of gratitude for God's grace, and a participation in the mission of the church. We give not out of compulsion, but cheerfully, knowing that God loves a cheerful giver.",
+            "stewardship": "Christian Stewardship",
+            "stewardship_desc": "We recognize that everything we have belongs to God. We are merely stewards of His resources, called to use them faithfully for His glory.",
+            "generosity": "Gospel Generosity",
+            "generosity_desc": "Our giving is motivated by the gospel. For you know the grace of our Lord Jesus Christ, that though he was rich, yet for your sake he became poor, so that you by his poverty might become rich. (2 Corinthians 8:9)"
+        }
     }
 }
