@@ -1,6 +1,7 @@
 import { ArrowRight, Calendar, Clock } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import heroBg from '../assets/chu.jpg';
+import heroBg2 from '../assets/ch.jpg';
 import { useTranslation } from 'react-i18next';
 
 const Home = () => {
@@ -88,7 +89,7 @@ const Home = () => {
                         <div style={{ position: 'relative' }}>
                             <div style={{ position: 'absolute', top: '-20px', left: '-20px', width: '100px', height: '100px', backgroundColor: 'var(--color-accent)', borderRadius: '4px', zIndex: 0 }}></div>
                             <img
-                                src="https://images.unsplash.com/photo-1438232992991-995b7058bbb3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80"
+                                src={heroBg2}
                                 alt="Bible Study"
                                 style={{ position: 'relative', zIndex: 1, borderRadius: '8px', boxShadow: 'var(--shadow-lg)' }}
                             />
