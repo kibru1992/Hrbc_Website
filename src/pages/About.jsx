@@ -81,7 +81,7 @@ const About = () => {
                                     top: '-0.5rem',
                                     userSelect: 'none'
                                 }}>
-                                    {index + 1}
+
                                 </div>
                                 <div style={{ position: 'relative', zIndex: 1, paddingLeft: '3rem' }}>
                                     <h3 style={{ fontSize: '1.75rem', marginBottom: '1rem', color: 'var(--color-primary)' }}>
