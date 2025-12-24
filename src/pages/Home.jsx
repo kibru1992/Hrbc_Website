@@ -14,8 +14,7 @@ const Home = () => {
                 backgroundColor: 'var(--color-primary)',
                 color: 'white',
                 padding: '8rem 0',
-                backgroundImage: `linear-gradient(rgba(30, 58, 138, 0.7), rgba(30, 58, 138, 0.6)), url(${heroBg})`,
-                backgroundSize: 'cover',
+                backgroundImage: `linear-gradient(rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.7)), url(${heroBg})`, backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 textAlign: 'center'
             }}>
