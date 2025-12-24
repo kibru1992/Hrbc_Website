@@ -6,9 +6,9 @@ const Sermons = () => {
 
     // Placeholder data - in a real app, this might come from the YouTube API
     const recentSermons = [
-        { title: "The Sovereignty of God", date: "Dec 17, 2023", preacher: "Pastor [Name]" },
-        { title: "Justification by Faith", date: "Dec 10, 2023", preacher: "Pastor [Name]" },
-        { title: "The Holiness of God", date: "Dec 03, 2023", preacher: "Pastor [Name]" },
+        { title: "የዕብራውያን መፅሐፍ ተከታይ ትምህርት ። ክፍል 13 ።", videoId: "y6yZk9FInuo" },
+        { title: "የዕብራውያን መፅሐፍ ተከታይ ትምህርት ። ክፍል 13 ።", videoId: "6qzW6TeRKq4" },
+        { title: "የዕብራውያን መፅሐፍ ተከታይ ትምህርት ። ክፍል 13 ።", videoId: "Jljp2JO-eNU" },
     ];
 
     return (
@@ -35,7 +35,7 @@ const Sermons = () => {
                         <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', borderRadius: '8px', boxShadow: 'var(--shadow-lg)' }}>
                             <iframe
                                 style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 'none' }}
-                                src="https://www.youtube.com/watch?v=PtCkU-S5zAw&list=PLwIqrzFylL5iIMRCkSZNVtkeZ7nslzpeU" // Using a generic playlist or video ID
+                                src="https://www.youtube.com/embed/bJvozRqjOgE" // Using a generic playlist or video ID
                                 title="Latest Sermon"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowFullScreen
@@ -49,14 +49,32 @@ const Sermons = () => {
                         <div className="grid md:grid-cols-3" style={{ gap: '2rem' }}>
                             {recentSermons.map((sermon, index) => (
                                 <div key={index} className="card" style={{ padding: '0', overflow: 'hidden' }}>
-                                    <div style={{ backgroundColor: '#1e293b', height: '160px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#475569' }}>
-                                        <Youtube size={48} />
+                                    <div style={{ height: '160px', overflow: 'hidden', position: 'relative' }}>
+                                        <img
+                                            src={`https://img.youtube.com/vi/${sermon.videoId}/mqdefault.jpg`}
+                                            alt={sermon.title}
+                                            style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                                        />
+                                        <div style={{
+                                            position: 'absolute',
+                                            top: '50%',
+                                            left: '50%',
+                                            transform: 'translate(-50%, -50%)',
+                                            backgroundColor: 'rgba(0,0,0,0.6)',
+                                            borderRadius: '50%',
+                                            padding: '0.5rem',
+                                            display: 'flex',
+                                            alignItems: 'center',
+                                            justifyContent: 'center'
+                                        }}>
+                                            <Youtube size={32} color="white" />
+                                        </div>
                                     </div>
                                     <div style={{ padding: '1.5rem' }}>
                                         <h3 style={{ fontSize: '1.1rem', marginBottom: '0.5rem' }}>{sermon.title}</h3>
                                         <p style={{ fontSize: '0.875rem', color: 'var(--color-text-muted)', marginBottom: '0.25rem' }}>{sermon.preacher}</p>
                                         <p style={{ fontSize: '0.875rem', color: '#94a3b8' }}>{sermon.date}</p>
-                                        <a href="https://www.youtube.com/watch?v=PtCkU-S5zAw&list=PLwIqrzFylL5iIMRCkSZNVtkeZ7nslzpeU" target="_blank" rel="noreferrer" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', marginTop: '1rem', color: 'var(--color-primary)', fontWeight: '600', fontSize: '0.875rem' }}>
+                                        <a href={`https://www.youtube.com/watch?v=${sermon.videoId}`} target="_blank" rel="noreferrer" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', marginTop: '1rem', color: 'var(--color-primary)', fontWeight: '600', fontSize: '0.875rem' }}>
                                             {t('sermons.watch_on_youtube')} <ExternalLink size={16} />
                                         </a>
                                     </div>
