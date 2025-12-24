@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@400;600;700&display=swap');
 
 :root {
-  --color-primary: #1e3a8a;
-  /* Deep Navy Blue */
-  --color-primary-dark: #172554;
-  --color-secondary: #334155;
-  /* Slate 700 */
-  --color-accent: #c29b40;
-  /* Muted Gold */
-  --color-bg: #f8fafc;
-  /* Off-white */
+  --color-primary: #1B365D;
+  /* Deep Royal Blue */
+  --color-primary-dark: #0F1F35;
+  --color-secondary: #475569;
+  /* Slate 600 */
+  --color-accent: #C5A059;
+  /* Elegant Gold */
+  --color-bg: #F8F7F4;
+  /* Warm White */
   --color-surface: #ffffff;
-  --color-text: #1e293b;
-  /* Dark Slate */
-  --color-text-muted: #64748b;
+  --color-text: #1F2937;
+  /* Gray 800 */
+  --color-text-muted: #6B7280;
 
   --font-heading: 'Playfair Display', serif;
   --font-body: 'Inter', sans-serif;
