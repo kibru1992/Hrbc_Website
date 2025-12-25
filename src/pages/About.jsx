@@ -105,15 +105,15 @@ const About = () => {
                             <img src={confessionImg} alt="1689 Confession" style={{ borderRadius: '8px', boxShadow: 'var(--shadow-lg)', maxHeight: '500px', margin: '0 auto' }} />
                         </div>
                         <div style={{ order: 1 }}>
-                            <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '1.5rem' }}>
+                            {/* <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '1.5rem' }}>
                                 <BookOpen size={32} color="var(--color-primary)" />
                                 <h2 style={{ fontSize: '2rem' }}>{t('about.confession_title')}</h2>
-                            </div>
-                            <p className="mb-6" style={{ fontSize: '1.1rem', lineHeight: '1.8' }}>
+                            </div> */}
+                            {/* <p className="mb-6" style={{ fontSize: '1.1rem', lineHeight: '1.8' }}>
                                 <Trans i18nKey="about.confession_text">
                                     We fully subscribe to the <strong>1689 London Baptist Confession of Faith</strong>. We believe it is the best summary of what the Bible teaches.
                                 </Trans>
-                            </p>
+                            </p> */}
 
                             <h3 style={{ fontSize: '1.5rem', color: 'var(--color-primary)', marginTop: '2rem', marginBottom: '1.5rem' }}>{t('about.tulip_title')}</h3>
                             <ul style={{ listStyle: 'none', padding: 0, display: 'flex', flexDirection: 'column', gap: '1rem' }}>
