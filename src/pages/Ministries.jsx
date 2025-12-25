@@ -7,22 +7,22 @@ const Ministries = () => {
         {
             title: t('ministries.mens_title'),
             description: t('ministries.mens_desc'),
-            time: `${t('ministries.monthly')}, 1st Saturday @ 8:00 AM`
+            time: `${t('ministries.monthly')}`
         },
         {
             title: t('ministries.womens_title'),
             description: t('ministries.womens_desc'),
-            time: `${t('ministries.monthly')}, 2nd Saturday @ 3:00 PM`
+            time: `${t('ministries.monthly')}`
         },
         {
             title: t('ministries.sunday_school_title'),
             description: t('ministries.sunday_school_desc'),
-            time: `${t('ministries.sundays')} @ 8:00 AM`
+            time: `${t('ministries.sundays')}`
         },
         {
             title: t('ministries.evangelism_title'),
             description: t('ministries.evangelism_desc'),
-            time: `${t('ministries.weekly')}, Saturday afternoons`
+            time: `${t('ministries.weekly')}`
         }
     ];
 
