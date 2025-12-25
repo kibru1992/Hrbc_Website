@@ -1,16 +1,86 @@
-# React + Vite
+# Hawassa Reformed Baptist Church (HRBC) Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the official repository for the Hawassa Reformed Baptist Church (HRBC) website. This project is a modern, responsive web application built to serve the church community by providing information about sermons, ministries, donations, and more.
 
-Currently, two official plugins are available:
+##  About The Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This website serves as a digital hub for the HRBC community. It is designed to be accessible, user-friendly, and visually appealing, offering content in both English and Amharic.
 
-## React Compiler
+### Key Features
+- **Bilingual Support**: Seamless integration of English and Amharic languages using `i18next`.
+- **Sermons Library**: Access to sermon archives and featured messages.
+- **Online Giving**: Dedicated page for donations and tithing information.
+- **Ministries**: Information about various church ministries and activities.
+- **Responsive Design**: precise layout and styling for desktop and mobile devices using a custom CSS design system.
+- **Modern UI**: Clean aesthetics with smooth animations and interactive elements.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+##  Technology Stack
 
-## Expanding the ESLint configuration
+The project is built using the following technologies:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **[React](https://react.dev/)**: Frontend library for building the user interface.
+- **[Vite](https://vitejs.dev/)**: Next-generation frontend tooling for fast development and building.
+- **[React Router](https://reactrouter.com/)**: For handling client-side navigation and routing.
+- **[i18next](https://www.i18next.com/)**: For internationalization (i18n) and language switching.
+- **[Lucide React](https://lucide.dev/)**: For beautiful and consistent iconography.
+- **Vanilla CSS**: Custom-built design system with utility classes for flexible styling without external CSS framework dependencies.
+
+##  Getting Started
+
+Follow these instructions to get a copy of the project up and running on your local machine.
+
+### Prerequisites
+
+Ensure you have the following installed:
+- **Node.js** (v16.0.0 or higher)
+- **npm** (usually comes with Node.js)
+
+### Installation
+
+1.  **Clone the repository** (if applicable) or navigate to the project directory:
+    ```bash
+    cd HRBC
+    ```
+
+2.  **Install dependencies**:
+    ```bash
+    npm install
+    ```
+
+### Running the Application
+
+To start the development server:
+```bash
+npm run dev
+```
+The application will be available at your local machine.
+
+### Building for Production
+
+To create a production-ready build:
+```bash
+npm run build
+```
+
+To preview the production build locally:
+```bash
+npm run preview
+```
+
+##  Project Structure
+
+```
+src/
+├── assets/         # Static assets like images and icons
+├── components/     # Reusable UI components (Layout, Header, Footer, etc.)
+├── locales/        # Translation files (en, am)
+├── pages/          # Application pages (Home, About, Sermons, etc.)
+├── App.jsx         # Main application component with routing
+├── i18n.js         # Internationalization configuration
+├── index.css       # Global styles and custom design system
+└── main.jsx        # Entry point
+```
+
+##  License
+
+Hawassa Reformed Baptist Church. All rights reserved
