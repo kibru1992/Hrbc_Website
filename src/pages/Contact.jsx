@@ -32,7 +32,7 @@ const Contact = () => {
                                     <div>
                                         <h4 style={{ marginBottom: '0.25rem' }}>{t('contact.visit_us')}</h4>
                                         <p style={{ color: 'var(--color-text-muted)' }}>Hawassa, Ethiopia</p>
-                                        <p style={{ color: 'var(--color-text-muted)' }}>Kebele 05, Near Old Airport</p>
+                                        <p style={{ color: 'var(--color-text-muted)' }}>Kebele 05, Piassa Near Awash Bank </p>
                                     </div>
                                 </div>
 

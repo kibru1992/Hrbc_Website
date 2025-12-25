@@ -152,10 +152,13 @@ const About = () => {
                 </div>
             </section>
 
-            {/* Core Values & Leadership & History (Simplified or kept at bottom) */}
+            {/* Leadership */}
             <section className="section" style={{ backgroundColor: '#f8fafc' }}>
                 <div className="container">
-                    <h2 className="text-center mb-5">{t('about.leadership_title')}</h2>
+                    <div className="text-center mb-12">
+                        <h2 className="mb-4">{t('about.leadership_title')}</h2>
+                        <div style={{ width: '80px', height: '4px', backgroundColor: 'var(--color-accent)', margin: '0 auto' }}></div>
+                    </div>
                     <div className="grid md:grid-cols-3" style={{ gap: '2rem' }}>
                         {/* Placeholder Leadership Cards - Keeping original logic */}
                         {[1, 2].map((i) => (

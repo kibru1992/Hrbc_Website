@@ -164,7 +164,7 @@ const Home = () => {
                             <h2 className="mb-4">{t('home.hymns_title')}</h2>
                             <p className="mb-8" style={{ color: 'var(--color-text-muted)' }}>{t('home.hymns_desc')}</p>
                             <div className="card" style={{ padding: '1.5rem' }}>
-                                <div style={{ direction: 'rtl', textAlign: 'right', fontFamily: 'serif' }}>
+                                <div style={{ fontFamily: 'serif' }}>
                                     <p className="mb-2">(Holy, Holy, Holy)</p>
                                     <p className="mb-2">(Beneath the Cross of Jesus)</p>
                                     <p className="mb-2">(comming soon....)</p>
@@ -202,12 +202,12 @@ const Home = () => {
                             </div>
                             <span>{t('home.call_us')}</span>
                         </a>
-                        <a href="mailto:info@hrbc.et" style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', color: 'white', fontSize: '1.1rem' }}>
+                        <Link to="/contact" style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', color: 'white', fontSize: '1.1rem' }}>
                             <div style={{ backgroundColor: 'rgba(255,255,255,0.1)', padding: '0.75rem', borderRadius: '50%' }}>
                                 <Mail size={24} color="var(--color-accent)" />
                             </div>
                             <span>{t('home.email_us')}</span>
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </section>
