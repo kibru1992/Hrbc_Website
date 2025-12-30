@@ -1,8 +1,29 @@
+import { useState } from 'react';
 import { MapPin, Phone, Mail, Send } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 const Contact = () => {
     const { t } = useTranslation();
+    const [formData, setFormData] = useState({
+        name: '',
+        email: '',
+        message: ''
+    });
+
+    const handleChange = (e) => {
+        const { name, value } = e.target;
+        setFormData(prev => ({
+            ...prev,
+            [name]: value
+        }));
+    };
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        const subject = encodeURIComponent(`New Contact Request from ${formData.name}`);
+        const body = encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`);
+        window.location.href = `mailto:kibruabebe14@gmail.com?subject=${subject}&body=${body}`;
+    };
 
     return (
         <div>
@@ -58,13 +79,16 @@ const Contact = () => {
                             </div>
                         </div>
 
-                        {/* Form */}
                         <div className="card">
-                            <form onSubmit={(e) => e.preventDefault()}>
+                            <form onSubmit={handleSubmit}>
                                 <div style={{ marginBottom: '1.5rem' }}>
                                     <label style={{ display: 'block', marginBottom: '0.5rem', fontWeight: '500' }}>{t('contact.name_label')}</label>
                                     <input
                                         type="text"
+                                        name="name"
+                                        value={formData.name}
+                                        onChange={handleChange}
+                                        required
                                         placeholder={t('contact.name_label')}
                                         style={{ width: '100%', padding: '0.75rem', border: '1px solid #cbd5e1', borderRadius: '4px' }}
                                     />
@@ -73,6 +97,10 @@ const Contact = () => {
                                     <label style={{ display: 'block', marginBottom: '0.5rem', fontWeight: '500' }}>{t('contact.email_label')}</label>
                                     <input
                                         type="email"
+                                        name="email"
+                                        value={formData.email}
+                                        onChange={handleChange}
+                                        required
                                         placeholder="you@example.com"
                                         style={{ width: '100%', padding: '0.75rem', border: '1px solid #cbd5e1', borderRadius: '4px' }}
                                     />
@@ -80,6 +108,10 @@ const Contact = () => {
                                 <div style={{ marginBottom: '1.5rem' }}>
                                     <label style={{ display: 'block', marginBottom: '0.5rem', fontWeight: '500' }}>{t('contact.message_label')}</label>
                                     <textarea
+                                        name="message"
+                                        value={formData.message}
+                                        onChange={handleChange}
+                                        required
                                         rows="4"
                                         placeholder={t('contact.message_label')}
                                         style={{ width: '100%', padding: '0.75rem', border: '1px solid #cbd5e1', borderRadius: '4px', fontFamily: 'inherit' }}
