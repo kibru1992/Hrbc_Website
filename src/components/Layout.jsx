@@ -59,7 +59,7 @@ const Navbar = () => {
             {i18n.language === 'en' ? 'AM' : 'EN'}
           </button>
 
-          <Link to="/contact" className="btn btn-primary" style={{ padding: '0.5rem 1.5rem' }}>{t('nav.visit')}</Link>
+          {/* <Link to="/contact" className="btn btn-primary" style={{ padding: '0.5rem 1.5rem' }}>{t('nav.visit')}</Link> */}
         </div>
 
         {/* Mobile Menu Toggle */}
