@@ -5,6 +5,11 @@ import heroBg from '../assets/about/hero.jpg';
 import reformerImg from '../assets/about/reformer.jpg';
 import confessionImg from '../assets/about/confession.webp';
 
+import elderTekalegn from '../assets/leadership/elder_tekalegn.jpg';
+import elderYeabsera from '../assets/leadership/elder_yeabsera.jpg';
+import deaconTsedek from '../assets/leadership/deacon_tsedek.jpg';
+import deaconMesfin from '../assets/leadership/deacon_mesfin.jpg';
+
 const About = () => {
     const { t } = useTranslation();
 
@@ -162,28 +167,30 @@ const About = () => {
                     <div className="grid md:grid-cols-3" style={{ gap: '2rem' }}>
                         {/* Elder 1 */}
                         <div className="card" style={{ textAlign: 'center' }}>
-                            <div style={{ width: '100px', height: '100px', backgroundColor: '#cbd5e1', borderRadius: '50%', margin: '0 auto 1.5rem' }}></div>
+                            <div style={{ width: '100px', height: '100px', borderRadius: '50%', overflow: 'hidden', margin: '0 auto 1.5rem' }}>
+                                <img src={elderTekalegn} alt="Elder Tekalegn" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'top', transform: 'scale(1.1)' }} />
+                            </div>
                             <h3 style={{ fontSize: '1.25rem', marginBottom: '0.25rem' }}>{t('about.elder_name_1')}</h3>
                             <p style={{ color: 'var(--color-accent)', fontWeight: '600', fontSize: '0.875rem', marginBottom: '1rem' }}>{t('about.elder')}</p>
                         </div>
 
                         {/* Elder 2 */}
                         <div className="card" style={{ textAlign: 'center' }}>
-                            <div style={{ width: '100px', height: '100px', backgroundColor: '#cbd5e1', borderRadius: '50%', margin: '0 auto 1.5rem' }}></div>
+                            <img src={elderYeabsera} alt="Elder Yeabsera" style={{ width: '100px', height: '100px', objectFit: 'cover', borderRadius: '50%', margin: '0 auto 1.5rem' }} />
                             <h3 style={{ fontSize: '1.25rem', marginBottom: '0.25rem' }}>{t('about.elder_name_2')}</h3>
                             <p style={{ color: 'var(--color-accent)', fontWeight: '600', fontSize: '0.875rem', marginBottom: '1rem' }}>{t('about.elder')}</p>
                         </div>
 
                         {/* Deacon 1 */}
                         <div className="card" style={{ textAlign: 'center' }}>
-                            <div style={{ width: '100px', height: '100px', backgroundColor: '#cbd5e1', borderRadius: '50%', margin: '0 auto 1.5rem' }}></div>
+                            <img src={deaconTsedek} alt="Deacon Tsedek" style={{ width: '100px', height: '100px', objectFit: 'cover', borderRadius: '50%', margin: '0 auto 1.5rem' }} />
                             <h3 style={{ fontSize: '1.25rem', marginBottom: '0.25rem' }}>{t('about.deacon_name_1')}</h3>
                             <p style={{ color: 'var(--color-accent)', fontWeight: '600', fontSize: '0.875rem', marginBottom: '1rem' }}>{t('about.deacon')}</p>
                         </div>
 
                         {/* Deacon 2 */}
                         <div className="card" style={{ textAlign: 'center' }}>
-                            <div style={{ width: '100px', height: '100px', backgroundColor: '#cbd5e1', borderRadius: '50%', margin: '0 auto 1.5rem' }}></div>
+                            <img src={deaconMesfin} alt="Deacon Mesfin" style={{ width: '100px', height: '100px', objectFit: 'cover', borderRadius: '50%', margin: '0 auto 1.5rem' }} />
                             <h3 style={{ fontSize: '1.25rem', marginBottom: '0.25rem' }}>{t('about.deacon_name_2')}</h3>
                             <p style={{ color: 'var(--color-accent)', fontWeight: '600', fontSize: '0.875rem', marginBottom: '1rem' }}>{t('about.deacon')}</p>
                         </div>
