@@ -160,19 +160,34 @@ const About = () => {
                         <div style={{ width: '80px', height: '4px', backgroundColor: 'var(--color-accent)', margin: '0 auto' }}></div>
                     </div>
                     <div className="grid md:grid-cols-3" style={{ gap: '2rem' }}>
-                        {/* Placeholder Leadership Cards - Keeping original logic */}
-                        {[1, 2].map((i) => (
-                            <div key={i} className="card" style={{ textAlign: 'center' }}>
-                                <div style={{ width: '100px', height: '100px', backgroundColor: '#cbd5e1', borderRadius: '50%', margin: '0 auto 1.5rem' }}></div>
-                                <h3 style={{ fontSize: '1.25rem', marginBottom: '0.25rem' }}>Elder Name</h3>
-                                <p style={{ color: 'var(--color-accent)', fontWeight: '600', fontSize: '0.875rem', marginBottom: '1rem' }}>{t('about.elder')}</p>
-                            </div>
-                        ))}
+                        {/* Elder 1 */}
                         <div className="card" style={{ textAlign: 'center' }}>
                             <div style={{ width: '100px', height: '100px', backgroundColor: '#cbd5e1', borderRadius: '50%', margin: '0 auto 1.5rem' }}></div>
-                            <h3 style={{ fontSize: '1.25rem', marginBottom: '0.25rem' }}>Deacon Name</h3>
+                            <h3 style={{ fontSize: '1.25rem', marginBottom: '0.25rem' }}>{t('about.elder_name_1')}</h3>
+                            <p style={{ color: 'var(--color-accent)', fontWeight: '600', fontSize: '0.875rem', marginBottom: '1rem' }}>{t('about.elder')}</p>
+                        </div>
+
+                        {/* Elder 2 */}
+                        <div className="card" style={{ textAlign: 'center' }}>
+                            <div style={{ width: '100px', height: '100px', backgroundColor: '#cbd5e1', borderRadius: '50%', margin: '0 auto 1.5rem' }}></div>
+                            <h3 style={{ fontSize: '1.25rem', marginBottom: '0.25rem' }}>{t('about.elder_name_2')}</h3>
+                            <p style={{ color: 'var(--color-accent)', fontWeight: '600', fontSize: '0.875rem', marginBottom: '1rem' }}>{t('about.elder')}</p>
+                        </div>
+
+                        {/* Deacon 1 */}
+                        <div className="card" style={{ textAlign: 'center' }}>
+                            <div style={{ width: '100px', height: '100px', backgroundColor: '#cbd5e1', borderRadius: '50%', margin: '0 auto 1.5rem' }}></div>
+                            <h3 style={{ fontSize: '1.25rem', marginBottom: '0.25rem' }}>{t('about.deacon_name_1')}</h3>
                             <p style={{ color: 'var(--color-accent)', fontWeight: '600', fontSize: '0.875rem', marginBottom: '1rem' }}>{t('about.deacon')}</p>
                         </div>
+
+                        {/* Deacon 2 */}
+                        <div className="card" style={{ textAlign: 'center' }}>
+                            <div style={{ width: '100px', height: '100px', backgroundColor: '#cbd5e1', borderRadius: '50%', margin: '0 auto 1.5rem' }}></div>
+                            <h3 style={{ fontSize: '1.25rem', marginBottom: '0.25rem' }}>{t('about.deacon_name_2')}</h3>
+                            <p style={{ color: 'var(--color-accent)', fontWeight: '600', fontSize: '0.875rem', marginBottom: '1rem' }}>{t('about.deacon')}</p>
+                        </div>
+
                     </div>
                 </div>
             </section>
