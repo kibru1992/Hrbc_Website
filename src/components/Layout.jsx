@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Church, MapPin, Phone, Mail, Globe, Youtube } from 'lucide-react';
+import { Menu, X, Church, MapPin, Phone, Mail, Globe, Youtube, Bold } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 const Navbar = () => {
@@ -169,7 +169,12 @@ const Footer = () => {
         </div>
 
         <div style={{ borderTop: '1px solid #334155', marginTop: '3rem', paddingTop: '2rem', textAlign: 'center', color: '#64748b', fontSize: '0.875rem' }}>
-          &copy; {new Date().getFullYear()} Hawassa Reformed Baptist Church. {t('footer.rights')}
+          <p>
+            &copy; {new Date().getFullYear()} Hawassa Reformed Baptist Church. {t('footer.rights')}
+          </p>
+          <p style={{ marginTop: '0.5rem' }}>
+            Designed by <a href="https://kibruabebe.com/" target="_blank" rel="noopener noreferrer" style={{ color: '#64748b', textDecoration: 'Bold' }}>Kibru</a>
+          </p>
         </div>
       </div>
     </footer>
