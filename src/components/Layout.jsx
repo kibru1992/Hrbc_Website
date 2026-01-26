@@ -136,9 +136,9 @@ const Footer = () => {
           <div>
             <h3 style={{ fontSize: '1.125rem', color: 'var(--color-accent)', marginBottom: '1.25rem' }}>{t('footer.services')}</h3>
             <ul style={{ color: '#e2e8f0', display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
-              <li><strong>{t('footer.sunday_morning')}:</strong> 9:00 AM</li>
-              <li><strong>{t('footer.sunday_evening')}:</strong> 4:00 PM</li>
-              <li><strong>{t('footer.wednesday_prayer')}:</strong> 5:30 PM</li>
+              <li><strong>{t('footer.sunday_morning')}:</strong> 11:30 - 1:30 AM</li>
+              <li><strong>{t('footer.sunday_evening')}:</strong> 3:30 - 6:30 AM</li>
+              <li><strong>{t('footer.wednesday_prayer')}:</strong> 11:30 - 1:30 AM</li>
             </ul>
           </div>
 
