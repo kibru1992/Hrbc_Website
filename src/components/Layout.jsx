@@ -173,7 +173,7 @@ const Footer = () => {
             &copy; {new Date().getFullYear()} Hawassa Reformed Baptist Church. {t('footer.rights')}
           </p>
           <p style={{ marginTop: '0.5rem' }}>
-            Designed by <a href="https://kibruabebe.com/" target="_blank" rel="noopener noreferrer" style={{ color: '#64748b', textDecoration: 'Bold' }}>Kibru</a>
+            Designed by <a href="https://kibruabebe.com/" target="_blank" rel="noopener noreferrer" style={{ color: '#64748b', textDecoration: 'Bold' }}>Kibru.</a>
           </p>
         </div>
       </div>
