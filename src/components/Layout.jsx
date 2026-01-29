@@ -156,7 +156,7 @@ const Footer = () => {
               </div>
               <div style={{ display: 'flex', gap: '0.75rem' }}>
                 <Mail size={20} />
-                <span>info@hawassareformed.org</span>
+                <span>hawassarbc@gmail.com</span>
               </div>
               <div style={{ marginTop: '0.5rem' }}>
                 <a href="https://www.youtube.com/@HawassaReformedBaptistChurch" target="_blank" rel="noreferrer" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', color: 'var(--color-accent)' }}>

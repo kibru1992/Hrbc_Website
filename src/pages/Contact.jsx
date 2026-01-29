@@ -73,7 +73,7 @@ const Contact = () => {
                                     </div>
                                     <div>
                                         <h4 style={{ marginBottom: '0.25rem' }}>{t('contact.email_us')}</h4>
-                                        <p style={{ color: 'var(--color-text-muted)' }}>info@hawassareformed.org</p>
+                                        <p style={{ color: 'var(--color-text-muted)' }}>hawassarbc@gmail.com</p>
                                     </div>
                                 </div>
                             </div>
