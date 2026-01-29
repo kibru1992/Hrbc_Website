@@ -63,7 +63,7 @@ const Contact = () => {
                                     </div>
                                     <div>
                                         <h4 style={{ marginBottom: '0.25rem' }}>{t('contact.call_us')}</h4>
-                                        <p style={{ color: 'var(--color-text-muted)' }}>+251 911 000 000</p>
+                                        <p style={{ color: 'var(--color-text-muted)' }}>+251 906 472 670</p>
                                     </div>
                                 </div>
 
