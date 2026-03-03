@@ -196,7 +196,7 @@ const Home = () => {
                     <h2 style={{ color: 'white', marginBottom: '1.5rem' }}>{t('home.join_title')}</h2>
                     <p style={{ maxWidth: '600px', margin: '0 auto 2.5rem', color: '#e2e8f0' }}>{t('home.join_desc')}</p>
                     <div style={{ display: 'flex', gap: '2rem', justifyContent: 'center', flexWrap: 'wrap' }}>
-                        <a href="tel:+251911XXXXXX" style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', color: 'white', fontSize: '1.1rem' }}>
+                        <a href="tel:+251 990 862 321" style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', color: 'white', fontSize: '1.1rem' }}>
                             <div style={{ backgroundColor: 'rgba(255,255,255,0.1)', padding: '0.75rem', borderRadius: '50%' }}>
                                 <Phone size={24} color="var(--color-accent)" />
                             </div>
