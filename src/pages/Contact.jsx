@@ -22,7 +22,7 @@ const Contact = () => {
         e.preventDefault();
         const subject = encodeURIComponent(`New Contact Request from ${formData.name}`);
         const body = encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`);
-        window.location.href = `mailto:kibruabebe14@gmail.com?subject=${subject}&body=${body}`;
+        window.location.href = `mailto:hawassarbc@gmail.com?subject=${subject}&body=${body}`;
     };
 
     return (
