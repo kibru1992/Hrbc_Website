@@ -126,6 +126,23 @@ const Contact = () => {
                     </div>
                 </div>
             </section>
+
+            <section className="section" style={{ paddingTop: 0 }}>
+                <div className="container">
+                    <div style={{ width: '100%', height: '400px', borderRadius: '8px', overflow: 'hidden', border: '1px solid #e2e8f0', boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)' }}>
+                        <iframe
+                            src="https://maps.google.com/maps?q=Hawassa+Reformed+Baptist+Church&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                            width="100%"
+                            height="100%"
+                            style={{ border: 0 }}
+                            allowFullScreen=""
+                            loading="lazy"
+                            referrerPolicy="no-referrer-when-downgrade"
+                            title="HRBC Map Location"
+                        ></iframe>
+                    </div>
+                </div>
+            </section>
         </div>
     );
 };
