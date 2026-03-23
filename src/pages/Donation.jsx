@@ -73,13 +73,13 @@ const Donation = () => {
                                         </p>
                                     </div>
 
-                                    <div style={{ padding: '1rem', backgroundColor: '#f8fafc', borderRadius: '8px', border: '1px solid #e2e8f0' }}>
+                                    {/* <div style={{ padding: '1rem', backgroundColor: '#f8fafc', borderRadius: '8px', border: '1px solid #e2e8f0' }}>
                                         <p style={{ fontWeight: 'bold', color: 'var(--color-primary)', marginBottom: '0.25rem' }}>{t('donation.bank_name_2')}</p>
                                         <p style={{ fontSize: '0.9rem', color: '#64748b', marginBottom: '0.5rem' }}>{t('donation.account_holder')}</p>
                                         <p style={{ fontFamily: 'monospace', fontSize: '1.1rem', fontWeight: 'bold', color: '#334155' }}>
                                             {t('donation.account_number_2')}
                                         </p>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
 
